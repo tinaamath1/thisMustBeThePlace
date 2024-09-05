@@ -22,11 +22,11 @@ function draw() {
   textFont(font);
   textSize(40)
   fill("red")
-  text(title, 400, 80)
-  text(artist, 490, 550)
+  text(title, windowWidth/3, 80)
+  text(artist, windowWidth/2.5, 550)
   textSize(20)
-  text(instruction, 580, 590)
-  image(albumCover, 500, 150);
+  text(instruction, windowWidth/2.2, 590)
+  image(albumCover, windowWidth/2.5, 150);
 }
 
 function mousePressed(){
